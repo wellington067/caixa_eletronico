@@ -1,4 +1,4 @@
-# caixa_eletronico
+# caixa_eletronico com html, css e js
 
 neste projeto, criei um caixa eletrônico com as seguintes funcionalidades: sacar, depositar e mostrar qual o rendimento por mês dependendo do valor do saldo na conta.
 
