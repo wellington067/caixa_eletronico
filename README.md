@@ -1,4 +1,4 @@
-![image](https://github.com/wellington067/caixa_eletronico/assets/109475692/0eb0627b-9aea-4ef3-a951-029327cb0e03)
+![image](https://github.com/wellington067/caixa_eletronico/assets/109475692/fd6ab792-619a-43af-8349-c9746a86728e)
 
 <hr>
 
