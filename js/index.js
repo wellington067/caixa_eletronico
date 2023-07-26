@@ -36,7 +36,6 @@ var mostrar_rendimento = (cdi,saldo) => {
     var cdi = 1.14;
     var rendimento = parseFloat(saldo) * parseFloat(cdi/100);
     var rendimento = rendimento.toFixed(2);
-    var rendimento = rendimento.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
     
-    return document.querySelector(".resposta").innerHTML= "seu dinheiro está rendendo " + rendimento + " ao mês.";
+    return document.querySelector(".resposta").innerHTML= "seu dinheiro está rendendo " + rendimento.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) + " ao mês.";
 }
