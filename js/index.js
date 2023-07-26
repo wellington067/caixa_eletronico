@@ -30,11 +30,11 @@ function sacar(quantia,saldo){
 }
             // funçao rendimento
 
-var mostrar_rendimento = (cdi,saldo)=>{
+var mostrar_rendimento = (cdi,saldo) => {
     var saldo = window.document.getElementsByTagName("h3")[1];
     var saldo = saldo.innerText;
     var cdi = 1.14;
     var rendimento = parseFloat(saldo) * parseFloat(cdi/100);
     
-    return document.querySelector(".resposta").innerHTML= "seu dinheiro está rendendo ", + rendimento + ," ao mês.";
+    return document.querySelector(".resposta").innerHTML= "seu dinheiro está rendendo " + rendimento + " ao mês.";
 }
